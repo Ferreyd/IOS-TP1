@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    int number;
+    int essais;
+}
 
+@property (weak, nonatomic) IBOutlet UITextField *numberTF;
+
+@property (weak, nonatomic) IBOutlet UITextView *infoTV;
 
 @end
 
